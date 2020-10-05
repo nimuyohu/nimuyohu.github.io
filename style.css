@@ -2,3 +2,12 @@
     margin: 0;
     padding: 0;
 }
+
+.profile{
+    text-align: center;
+    margin: 10px;
+}
+
+.profile h2{
+    border-top: solid 1px rgb(159, 159, 159);
+}
