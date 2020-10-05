@@ -3,11 +3,43 @@
     padding: 0;
 }
 
+/* main{
+    margin: 0 auto;
+    width: 80%;
+} */
+
 .profile{
     text-align: center;
     margin: 10px;
 }
 
 .profile h2{
-    border-top: solid 1px rgb(159, 159, 159);
+    /* border-top: solid 1px rgb(159, 159, 159); */
+}
+
+.Product{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+}
+
+.card{
+    width: 100%;
+    margin-bottom: 30px;
+    /* margin: 0 auto; */
+}
+
+.usedskills{
+    display: flex;
+    list-style: none;
+    /* width: 100%; */
+}
+
+.usedskills li{
+    background-color: rgb(0, 251, 255);
+    border-radius: 3px;
+    font-size: xx-small;
+    margin: 3px;
+    padding: 3px;
+    /* display: flex; */
 }

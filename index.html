@@ -3,23 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+
     <title>Nimuyohu's Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">にむよふのポートフォリオ</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
         </button>
-      
+    
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav mr-auto">
             <li class="nav-item">
                 <a class="nav-link" href="#">Products</a>
             </li>
@@ -32,13 +34,83 @@
             <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
             </li>
-          </ul>
+        </ul>
 
         </div>
-      </nav>
-      <div class="profile">
-          <h1>にむよふ</h1>
-          <h4>プログラミングを嗜む文系大学生です。</h4>
-      </div>
+    </nav>
+        <div class="profile">
+            <h1>にむよふ</h1>
+            <h4>プログラミングを嗜む文系大学生です。</h4>
+
+            <h1>Products</h1>
+        </div>
+
+        <div class="Product">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/IMG_3569.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">LINE通知システム</h4>
+                                    <p class="card-text">
+                                        バイト先のシフト提出率を良くするために、バイトのLINEグループにシフト提出締切日に通知出来るようにしました。
+                                    </p>
+                                <ul class="usedskills">
+                                    <li>JavaScript</li>
+                                    <li>Google Apps Script</li>
+                                    <li>LINE Notify</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/TodoSNS.png">
+                            <div class="card-body">
+                                <h4 class="card-title">TodoSNS</h4>
+                                    <p class="card-text">
+                                        TodoアプリとSNSを合体させたサービスです。Twitterと連携してTodoリストを共有したり、タイマーを使って時間管理も出来ます。
+                                    </p>
+                                <a href="https://todosns.herokuapp.com/" class="btn btn-primary">TodoSNS</a>
+                                <ul class="usedskills">
+                                    <li>HTML&CSS</li>
+                                    <li>Ruby on Rails</li>
+                                    <li>JavaScript</li>
+                                    <li>TwitterAPI</li>
+                                </ul>
+                                <ul class="usedskills">
+                                    <li>Heroku</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/無限羊.png">
+                            <div class="card-body">
+                                <h4 class="card-title">無限羊</h4>
+                                    <p class="card-text">
+                                        <h5>概要</h5>
+                                        眠れない人のために、無限に羊の数を音声で読み上げてくれるサイトです。
+                                        <h5>工夫した点</h5>
+                                        何匹まで読み上げてくれるのかを設定出来る所です。何匹までを設定しない場合、無限に読み上げます。
+                                    </p>
+                                <a href="https://nimuyohu.github.io/sleep-sheep/" class="btn btn-primary">無限羊</a>
+                                <ul class="usedskills">
+                                    <li>Web Speech API</li>
+                                    <li>JavaScript</li>
+                                    <li>HTML&CSS</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
 </body>
 </html>
