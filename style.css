@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -13,11 +17,8 @@
     margin: 10px;
 }
 
-.profile h2{
-    /* border-top: solid 1px rgb(159, 159, 159); */
-}
 
-.Product{
+#Product{
     margin: 0 auto;
     width: 100%;
     display: flex;
@@ -45,3 +46,4 @@
     padding: 3px;
     /* display: flex; */
 }
+
