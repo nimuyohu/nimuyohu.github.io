@@ -32,11 +32,13 @@
 .usedskills{
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
+    margin-top: 18px;
     /* width: 100%; */
 }
 
 .usedskills li{
-    background-color: rgb(0, 251, 255);
+    background-color: rgb(123 210 251);
     border-radius: 3px;
     font-size: xx-small;
     margin: 3px;
