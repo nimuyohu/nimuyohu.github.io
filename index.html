@@ -45,7 +45,7 @@
 
         </div>
     </nav>
-    
+    <div class="container">
         <div class="profile">
             <h1>にむよふ</h1>
             <div class="demo">
@@ -55,7 +55,6 @@
             <h1>Products</h1>
         </div>
 
-        <div class="container">
             <div class="Products">
                 <div class="row">
 
@@ -102,7 +101,7 @@
                             <div class="card-body">
                                 <h4 class="card-title">お肉採点アプリ🍖</h4>
                                     <p class="card-text">
-                                        画像認識でAIがお肉の点数をつけてくれるアプリです。
+                                        画像認識でAIがお肉の点数をつけてくれるWebアプリです。
                                     </p>
                                 <a href="https://meatscoreing.netlify.app/" class="btn btn-primary">Link</a>
                                 <ul class="usedskills">
@@ -136,21 +135,51 @@
                         </div>
                     </div>
 
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/この猫何猫Bot.png">
+                            <div class="card-body">
+                                <h4 class="card-title">この猫なに猫？Bot</h4>
+                                    <p class="card-text">
+                                        猫の画像をBotに送信すると、それに類似する猫の上位5種類の名前と確率値を返すLINEBotです。
+                                    </p>
+                                <ul class="usedskills">
+                                    <li>Python</li>
+                                    <li>Heroku</li>
+                                    <li>LINE Messaging API</li>
+                                    <li>この猫なに猫？API</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/hash.png">
+                            <div class="card-body">
+                                <h4 class="card-title">#ハッシュタグジェネレーター</h4>
+                                    <p class="card-text">
+                                        複数のハッシュタグを簡単に作れるサービスです
+                                    </p>
+                                <ul class="usedskills">
+                                    <li>HTML&CSS</li>
+                                    <li>JavaScript</li>
+                                    <li>Netlify</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-        </div>
+    </div>
 
-
-
-
-
-        <script>
-            $(function(){
-                $('.demo').t({
+    <script>
+        $(function(){
+            $('.demo').t({
                     speed_vary:true,
-                });
             });
-        </script>
-        
+        });
+    </script>
 </body>
 </html>
